@@ -28,5 +28,10 @@
         {
             return 2 * Math.PI * Radius;
         }
+
+        public override string InfoFigure()
+        {
+            return $"Радиус = {Radius}, Площадь = {Area}, Периметр = {Perimeter}.";
+        }
     }
 }

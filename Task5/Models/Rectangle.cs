@@ -46,5 +46,10 @@
 
             return (A + B) * 2;
         }
+
+        public override string InfoFigure()
+        {
+            return $"Сторона А = {A}, Сторона B = {B}, Площадь = {Area}, Периметр = {Perimeter}.";
+        }
     }
 }

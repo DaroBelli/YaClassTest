@@ -16,5 +16,11 @@
         /// </summary>
         /// <returns></returns>
         private protected abstract double CalculatePerimeter();
+
+        /// <summary>
+        /// Возвращает данные по фигуре.
+        /// </summary>
+        /// <returns></returns>
+        public abstract string InfoFigure();
     }
 }

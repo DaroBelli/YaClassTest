@@ -33,7 +33,7 @@
 
             B = rnd.Next(1, 10);
 
-            C = rnd.Next(Math.Abs(B - A + 1), 10);
+            C = rnd.Next(Math.Abs(B - A) + 1, B + A - 1);
 
             sides = [A, B, C];
 
@@ -67,6 +67,11 @@
 
             sidesNotMax = sides.Where(x => x != maxSide).ToArray();
 
+            if (sidesNotMax.Length <= 1)
+            {
+                return false;
+            }
+
             //Поиск гипотенузы (самой длинной стороны) по формуле Пифагора.
             var pifagor = Math.Sqrt(sidesNotMax[0] * sidesNotMax[0] + sidesNotMax[1] * sidesNotMax[1]);
 
@@ -76,6 +81,11 @@
         private protected override double CalculatePerimeter()
         {
             return sides.Sum();
+        }
+
+        public override string InfoFigure()
+        {
+            return $"Сторона А = {A}, Сторона B = {B}, Сторона C = {C}, Площадь = {Area}, Периметр = {Perimeter}.";
         }
     }
 }
