@@ -8,7 +8,6 @@ namespace Task4.Services.Interfaces
 
         public Train[] GetTrainsOrderByDestinationThenDepartureTime();
 
-
         public Train[] GetTrainsFilterByActualTime();
     }
 }
