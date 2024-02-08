@@ -16,14 +16,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task5", "Task5\Task5.csproj", "{EE0C805A-82BE-470B-B608-14AE11E19707}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task5", "Task5\Task5.csproj", "{EE0C805A-82BE-470B-B608-14AE11E19707}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{DC2F55F0-1215-4F4E-9196-32B771C1C4FC}"
 	ProjectSection(SolutionItems) = preProject
 		readme.txt = readme.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task7", "Task7\Task7.csproj", "{57F17BE0-820B-48E5-AB1D-A5AC5D372B91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task7", "Task7\Task7.csproj", "{57F17BE0-820B-48E5-AB1D-A5AC5D372B91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task8", "Task8\Task8.csproj", "{9CDA9726-68CC-4C5B-B6E8-8B580BCEB6B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{57F17BE0-820B-48E5-AB1D-A5AC5D372B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57F17BE0-820B-48E5-AB1D-A5AC5D372B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57F17BE0-820B-48E5-AB1D-A5AC5D372B91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CDA9726-68CC-4C5B-B6E8-8B580BCEB6B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CDA9726-68CC-4C5B-B6E8-8B580BCEB6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CDA9726-68CC-4C5B-B6E8-8B580BCEB6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CDA9726-68CC-4C5B-B6E8-8B580BCEB6B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
