@@ -1,6 +1,6 @@
 ﻿namespace Task10.Conrollers
 {
-    public static class Deposit
+    public static class DepositController
     {
         public static decimal GetDepositFromProcent(decimal deposit, int monthCount)
         {
