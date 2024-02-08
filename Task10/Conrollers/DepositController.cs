@@ -2,6 +2,12 @@
 {
     public static class DepositController
     {
+        /// <summary>
+        /// Возвращает конечный вклад.
+        /// </summary>
+        /// <param name="deposit">Начальный вклад.</param>
+        /// <param name="monthCount">Количество месяцев.</param>
+        /// <returns></returns>
         public static decimal GetDepositFromProcent(decimal deposit, int monthCount)
         {
             int percent = int.Parse(ConfigJSON.GetConfig().GetSection("Percent").Value ?? "0");
