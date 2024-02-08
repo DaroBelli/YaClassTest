@@ -1,0 +1,20 @@
+﻿@page
+@model Task10.Pages.IndexModel
+@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+}
+@{
+<form method="post">
+    <p>
+        <label asp-for="DepositModel.Deposit">Введите сумму:</label><br />
+        <input type="text" asp-for="DepositModel.Deposit" />
+    </p>
+    <p>
+            <label asp-for="DepositModel.MonthCount">Введите количество месяцев:</label><br />
+            <input type="number" asp-for="DepositModel.MonthCount" min="1" />
+    </p>
+    <input type="submit" value="Отправить" />
+    <label>@Model.Message</label>
+</form>
+}
